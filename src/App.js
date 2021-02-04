@@ -1,11 +1,12 @@
 import { Button } from "antd";
-import './App.css';
+import './App.less';
 
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Button</Button>
+      <Button className="btn" type="primary">Button</Button>
+      <span className="text">text</span>
     </div>
   );
 }
